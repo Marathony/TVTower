@@ -1180,7 +1180,7 @@
 			<data country="D" year="1991" distribution="1" maingenre="5" subgenre="" flags="8" blocks="2" price_mod="0.98" />
 			<ratings critics="67" speed="19" outcome="65" />
 		</programme>
-		<programme id="cujo-film-rache-erben" product="3" licence_type="3" tmdb_id="0" imdb_id="tt0087148" creator="8827" created_by="Cujo">
+		<programme id="cujo-film-rache-erben" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0087148" creator="8827" created_by="Cujo">
 			<title>
 				<de>Titi und die Rache der Erben</de>
 				<en>Titi and the revenge of the heirs</en>
