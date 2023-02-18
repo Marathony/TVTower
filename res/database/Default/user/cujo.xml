@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <tvtdb>
 	<version value="3" comment="Cujos Daten" />
 	<allnews>
@@ -10,13 +10,13 @@
 			</title>
 			<description>
 				<de>Die beiden weltbekannten Superhelden haben sich gefunden. Sie findet ihn super. Er sie auch. Beide: "Unser erstes Date war super".</de>
-				<en>The world-famous superheroes have found each other. She thinks he's super. He her too. Both: "Our first date was super".</en>
+				<en>The world-famous superheroes have found each other. She thinks he's super. He feels the same. Both: "Our first date was super".</en>
 			</description>
 			<effects>
 				<!-- "morgen oder uebermorgen, 12-16 Uhr" -->
 				<effect trigger="happen" type="triggernews" time="2,1,2,12,16" news="cujo-news-superkerl-02" />
 			</effects>
-			<data genre="1" price="1.0" quality="10" />
+			<data genre="1" price="1.0" quality="10" flags="2"/>
 			<availability year_range_from="1985" year_range_to="1995" />
 		</news>
 		<news id="cujo-news-superkerl-02" type="2" thread_id="cujo-news-superkerl" creator="8827" created_by="Cujo">
@@ -153,7 +153,7 @@
 			</description>
 			<effects />
 			<data genre="1" price="1.0" quality="70" />
-		</news>	
+		</news>
 		<!-- "Fifa-WM 2022 in Katar" -->
 		<news id="cujo-news-quantar-01" type="0" thread_id="cujo-news-quantar" creator="8827" created_by="Cujo">
 			<title>
@@ -280,7 +280,7 @@
 			<effects>
 				<effect trigger="happen" type="triggernews" time="2,1,1,10,11" news="cujo-news-passenger-02" />
 			</effects>
-			<data genre="4" price="1.0" quality="40" />
+			<data genre="4" price="1.0" quality="40" flags="2"/>
 			<availability year_range_from="1986" year_range_to="1987" />
 		</news>
 		<news id="cujo-news-passenger-02" type="2" thread_id="cujo-news-passenger" creator="8827" created_by="Cujo">
@@ -393,7 +393,7 @@
 			<effects>
 				<effect trigger="happen" type="triggernews" time="1,2,3" news="cujo-news-roter-platz-02" />
 			</effects>
-			<data genre="4" price="0.55" quality="10" />
+			<data genre="4" price="0.55" quality="10" flags="2"/>
 		</news>
 		<news id="cujo-news-roter-platz-02" type="2" thread_id="cujo-news-roter-platz" creator="8827" created_by="Cujo">
 			<title>
@@ -478,6 +478,7 @@
 			<data genre="4" price="0.78" quality="55" />
 		</news>
 		<!-- "Ältester Mensch der Welt" -->
+		<!--TODO variables-->
 		<news id="cujo-news-aeltestermensch-01" type="0" thread_id="cujo-news-aeltestermensch" creator="8827" created_by="Cujo">
 			<title>
 				<de>Ältester Mensch der Welt gestorben</de>
@@ -487,7 +488,7 @@
 				<de>Im Alter von 120 Jahren, 8 Monaten und 13 Tagen ist der Japaner Shigeko Izmari gestorben. Als er geboren wurde, produzierte der Konsolenhersteller Nidennto noch Gummistiefel.</de>
 				<en>At the age of 120 years, 8 months and 13 days, Japanese Shigeko Izmari has died. When he was born, the console manufacturer Nidennto was still producing rubber boots.</en>
 			</description>
-			<data genre="4" price="0.9" quality="30" />
+			<data genre="4" price="0.9" quality="30" flags="2"/>
 		</news>
 		<!-- "Bill Gates: Internet ist nur ein Hype" -->
 		<news id="cujo-news-internet-trend-01" type="0" thread_id="cujo-news-internet-trend" creator="8827" created_by="Cujo">
@@ -503,6 +504,7 @@
 			<availability year_range_from="1993" year_range_to="1995" />
 		</news>
 		<!-- "Wildecker Herzbuben" -->
+		<!--TODO variables-->
 		<news id="cujo-news-wildberger-karobuben-01" type="0" thread_id="cujo-news-wildberger-karobuben" creator="8827" created_by="Cujo">
 			<title>
 				<de>Wildberger Karobuben: "Wir sind jetzt schlank"</de>
@@ -512,10 +514,11 @@
 				<de>In einem Exklusiv-Interview mit der Zeitschrift FARBIGE erzählen die Wildberger Karobuben von ihrer Hungerkur: "Wir haben 7 Monate lang fast nichts gegessen und in dieser Zeit 300 Gramm abgenommen. Zusammengerechnet natürlich."</de>
 				<en>In an exclusive interview with FARBIGE magazine, the Wildberg Karobuben talk about their starvation diet: "We ate almost nothing for 7 months and lost 300 grams in that time. Added up, of course."</en>
 			</description>
-			<data genre="1" price="1.03" quality="19" />
+			<data genre="1" price="1.03" quality="19"/>
 			<availability year_range_from="1989" year_range_to="" />
 		</news>
-		<!-- "Stiftung Warentest" -->	
+		<!-- "Stiftung Warentest" -->
+		<!--TODO variables-->
 		<news id="cujo-news-stiftung-guetertest-01" type="0" thread_id="cujo-news-stiftung-guetertest" creator="8827" created_by="Cujo">
 			<title>
 				<de>Stiftung Gütertest testet Kugelschreiber</de>
@@ -525,12 +528,10 @@
 				<de>Die Stiftung Gütertest hat 5.748 Kugelschreiber getestet. Den besten Stift stellte die Firma Bastilo her. Erst nach einer Schreibdauer von 723 Stunden war seine Mine leer. 7 Tester wurden wegen eines Schreibkrampfes stationär behandelt.</de>
 				<en>Fondation goodstest tested 5,748 ballpoint pens. The best ballpoint pen was produced by the Bastilo company. Its refill was only empty after writing for 723 hours. 7 testers were hospitalized due to writer's cramp.</en>
 			</description>
-			<effects>
-				<effect trigger="happen" type="triggernews" time="2,2,5,17,21" news="cujo-news-stiftung-guetertest-02" />
-			</effects>
 			<data genre="4" price="0.81" quality="59" />
 		</news>
-		<news id="cujo-news-stiftung-guetertest-02" type="2" thread_id="cujo-news-stiftung-guetertest" creator="8827" created_by="Cujo">
+		<!--TODO variables-->
+		<news id="cujo-news-stiftung-guetertest-02" type="0" thread_id="cujo-news-stiftung-guetertest" creator="8827" created_by="Cujo">
 			<title>
 				<de>Stiftung Gütertest testet Vibratoren</de>
 				<en>Fondation goodstest tests vibrators</en>
@@ -552,7 +553,7 @@
 				<de>Der Kenianer Saul Taggert hat den ersten offiziellen Marathon-Weltrekord aufgestellt. In Berlin lief er die 42,195 Kilometer lange Strecke in einer Zeit von 2:04:55 Stunden. Bisher wurden beim Marathon nur Weltbestzeiten gelistet.</de>
 				<en>Kenyan Saul Taggert has set the first official marathon world record. In Berlin, he ran the 42.195-kilometer course in a time of 2:04:55 hours. Until now, only world best times have been listed for the marathon.</en>
 			</description>
-			<data genre="2" price="1.0" quality="80" />
+			<data genre="2" price="1.0" quality="80" flags="2"/>
 			<availability year_range_from="2003" year_range_to="2003" />
 		</news>
 		<news id="cujo-news-marathon-2007" type="0" thread_id="cujo-news-marathon-2007" creator="8827" created_by="Cujo">
@@ -564,7 +565,7 @@
 				<de>Der Äthiopier Helle Geberlassy hat einen neuen Marathon-Weltrekord aufgestellt. In Berlin lief er die 42,195 Kilometer lange Strecke in der neuen Bestzeit von 2:04:26 Stunden. Er verbesserte damit den bisherigen Weltrekord um 29 Sekunden.</de>
 				<en>Ethiopian Helle Geberlassy has set a new marathon world record. In the German capital Berlin, he ran the 42.195 kilometer course in the new best time of 2:04:26 hours. He thus improved the previous world record by 29 seconds.</en>
 			</description>
-			<data genre="2" price="1.0" quality="80" />
+			<data genre="2" price="1.0" quality="80" flags="2"/>
 			<availability year_range_from="2007" year_range_to="2007" />
 		</news>
 		<news id="cujo-news-marathon-2008" type="0" thread_id="cujo-news-marathon-2008" creator="8827" created_by="Cujo">
@@ -576,7 +577,7 @@
 				<de>Der Äthiopier Helle Geberlassy hat einen neuen Marathon-Weltrekord aufgestellt. In Berlin lief er die 42,195 Kilometer lange Strecke in der neuen Bestzeit von 2:03:59 Stunden. Er verbesserte damit den von ihm gehaltenen Weltrekord um 27 Sekunden.</de>
 				<en>Ethiopian Helle Geberlassy has set a new marathon world record. In Berlin, he ran the 42.195 kilometer course in the new best time of 2:03:59 hours. He thus improved the world record held by him by 27 seconds.</en>
 			</description>
-			<data genre="2" price="1.0" quality="80" />
+			<data genre="2" price="1.0" quality="80" flags="2"/>
 			<availability year_range_from="2008" year_range_to="2008" />
 		</news>
 		<news id="cujo-news-marathon-2011" type="0" thread_id="cujo-news-marathon-2011" creator="8827" created_by="Cujo">
@@ -588,7 +589,7 @@
 				<de>Der Kenianer Patt Mattku hat einen neuen Marathon-Weltrekord aufgestellt. In Berlin lief er die 42,195 Kilometer lange Strecke in der neuen Bestzeit von 2:03:38 Stunden. Er verbesserte damit den bisherigen Weltrekord um 21 Sekunden.</de>
 				<en>Kenyan Patt Mattku has set a new marathon world record. In the German capital Berlin, he ran the 42.195 kilometer course in the new best time of 2:03:38 hours. He thus improved the previous world record by 21 seconds.</en>
 			</description>
-			<data genre="2" price="1.0" quality="80" />
+			<data genre="2" price="1.0" quality="80" flags="2"/>
 			<availability year_range_from="2011" year_range_to="2011" />
 		</news>
 		<news id="cujo-news-marathon-2013" type="0" thread_id="cujo-news-marathon-2013" creator="8827" created_by="Cujo">
@@ -600,7 +601,7 @@
 				<de>Der Kenianer Nelson Sigpang hat einen neuen Marathon-Weltrekord aufgestellt. In Berlin lief er die 42,195 Kilometer lange Strecke in der neuen Bestzeit von 2:03:23 Stunden. Er verbesserte damit den bisherigen Weltrekord um 15 Sekunden.</de>
 				<en>Kenyan Nelson Sigpang has set a new marathon world record. In Berlin, he ran the 42.195 kilometer course in the new best time of 2:03:23 hours. He thus improved the previous world record by 15 seconds.</en>
 			</description>
-			<data genre="2" price="1.0" quality="80" />
+			<data genre="2" price="1.0" quality="80" flags="2"/>
 			<availability year_range_from="2013" year_range_to="2013" />
 		</news>
 		<news id="cujo-news-marathon-2014" type="0" thread_id="cujo-news-marathon-2014" creator="8827" created_by="Cujo">
@@ -612,7 +613,7 @@
 				<de>Der Kenianer Danny Komitti hat einen neuen Marathon-Weltrekord aufgestellt. In Berlin lief er die 42,195 Kilometer lange Strecke in der neuen Bestzeit von 2:02:57 Stunden. Er verbesserte damit den bisherigen Weltrekord um 26 Sekunden.</de>
 				<en>Kenyan Danny Komitti has set a new marathon world record. In Berlin, he ran the 42.195 kilometer course in the new best time of 2:02:57 hours. He thus improved the previous world record by 26 seconds.</en>
 			</description>
-			<data genre="2" price="1.0" quality="80" />
+			<data genre="2" price="1.0" quality="80" flags="2"/>
 			<availability year_range_from="2014" year_range_to="2014" />
 		</news>
 		<news id="cujo-news-marathon-2018" type="0" thread_id="cujo-news-marathon-2018" creator="8827" created_by="Cujo">
@@ -624,7 +625,7 @@
 				<de>Der Kenianer Elwood Pogchige hat einen neuen Marathon-Weltrekord aufgestellt. In Berlin lief er die 42,195 Kilometer lange Strecke in der neuen Bestzeit von 2:01:39 Stunden. Er verbesserte damit den bisherigen Weltrekord um 78 Sekunden.</de>
 				<en>Kenyan Elwood Pogchige has set a new marathon world record. In Berlin, he ran the 42.195 kilometer course in the new best time of 2:01:39 hours. He thus improved the previous world record by 78 seconds.</en>
 			</description>
-			<data genre="2" price="1.0" quality="80" />
+			<data genre="2" price="1.0" quality="80" flags="2"/>
 			<availability year_range_from="2018" year_range_to="2018" />
 		</news>
 		<news id="cujo-news-marathon-2022" type="0" thread_id="cujo-news-marathon-2022" creator="8827" created_by="Cujo">
@@ -636,7 +637,7 @@
 				<de>Der Kenianer Elwood Pogchige hat einen neuen Marathon-Weltrekord aufgestellt. In Berlin lief er die 42,195 Kilometer lange Strecke in der neuen Bestzeit von 2:01:09 Stunden. Er verbesserte damit seinen eigenen Weltrekord um 30 Sekunden.</de>
 				<en>Kenyan Elwood Pogchige has set a new marathon world record. In the German capital Berlin, he ran the 42.195 kilometer course in the new best time of 2:01:09 hours. He thus improved his own world record by 30 seconds.</en>
 			</description>
-			<data genre="2" price="1.0" quality="80" />
+			<data genre="2" price="1.0" quality="80" flags="2"/>
 			<availability year_range_from="2022" year_range_to="2022" />
 		</news>
 		<!-- Spiele des Jahres -->
@@ -649,7 +650,7 @@
 				<de>"Dr. Watson Kriminalzimmer" wurde zum Brettspiel des Jahres 1985 gekürt. Der Jury imponierte, dass das Spiel sowohl allein als auch in einer Gruppe gespielt werden kann.</de>
 				<en>"Dr. Watson Crime Room" was chosen as the board game of the year 1985. The jury was impressed by the fact that the game can be played both alone and in a group.</en>
 			</description>
-			<data genre="3" price="0.49" quality="45" />
+			<data genre="3" price="0.49" quality="45" flags="2"/>
 			<availability year_range_from="1985" year_range_to="1985" />
 		</news>
 		<news id="cujo-news-brettspiel-1990" type="0" thread_id="cujo-news-brettspiel-1990" creator="8827" created_by="Cujo">
@@ -661,7 +662,7 @@
 				<de>Das Brettspiel des Jahres 1990 heißt "Blaues Blut wird zur Pflicht". Mehrere Barone kämpfen in Auktionen um die besten Antiquitäten. Um ihr Ziel zu erreichen, können sie Diebe und Spione verpflichten.</de>
 				<en>The board game of the year 1990 is called "Blue Blood Becomes Duty". Several barons fight in auctions for the best antiques. To achieve their goal, they can hire thieves and spies.</en>
 			</description>
-			<data genre="3" price="0.48" quality="46" />
+			<data genre="3" price="0.48" quality="46" flags="2"/>
 			<availability year_range_from="1990" year_range_to="1990" />
 		</news>
 		<news id="cujo-news-brettspiel-1995" type="0" thread_id="cujo-news-brettspiel-1995" creator="8827" created_by="Cujo">
@@ -673,7 +674,7 @@
 				<de>"Die Pioniere von Kastlan" wurde zum Brettspiel des Jahres 1995 gewählt. Die Spieler müssen Rohstoffe sammeln, um damit Straßen, Siedlungen und Städte bauen zu können. Erfunden wurde es von dem Spieleentwickler Karl Stäuber.</de>
 				<en>"The Pioneers of Kastlan" was voted board game of the year in 1995. Players have to collect raw materials in order to build roads, settlements and cities. It was invented by the game developer Karl Stäuber.</en>
 			</description>
-			<data genre="3" price="0.47" quality="47" />
+			<data genre="3" price="0.47" quality="47" flags="2"/>
 			<availability year_range_from="1995" year_range_to="1995" />
 		</news>
 		<!-- "Gamezworld AG" -->
@@ -686,13 +687,10 @@
 				<de>Wegen der Pandemie arbeiten ab sofort alle TV Tower-Entwickler im Home-Office. Laut der Gamezworld AG sind weltweit etwa 35.000 Mitarbeiter davon betroffen.</de>
 				<en>Due to the pandemic, all TV Tower developers are working in their home offices with immediate effect. According to Gamezworld AG, about 35,000 employees worldwide are affected.</en>
 			</description>
-			<effects>
-				<effect trigger="happen" type="triggernews" time="2,1,2,12,16" news="cujo-news-gamezworld-02" />
-			</effects>
 			<data genre="0" price="0.5" quality="20" />
 			<availability year_range_from="2020" year_range_to="" />
 		</news>
-		<news id="cujo-news-gamezworld-02" type="2" thread_id="cujo-news-tvt" creator="8827" created_by="Cujo">
+		<news id="cujo-news-gamezworld-02" type="0" thread_id="cujo-news-tvt" creator="8827" created_by="Cujo">
 			<title>
 				<de>News werden verschlüsselt</de>
 				<en>News are encrypted</en>
@@ -701,12 +699,10 @@
 				<de>Laut der Gamezworld AG werden die News wegen der geltenden GSDVO ab sofort verschlüsselt. v/KNne yTZbUgc+p FMJ6 MH8qT XQFrZsi.</de>
 				<en>According to Gamezworld AG, the news will be encrypted with immediate effect due to the GSDVO in force. v/KNne yTZbUgc+p FMJ6 MH8qT XQFrZsi.</en>
 			</description>
-			<effects>
-				<effect trigger="happen" type="triggernews" time="2,1,2,13,17" news="cujo-news-gamezworld-03" />
-			</effects>
-			<data genre="0" price="0.5" quality="30" />
+			<data genre="0" price="0.5" quality="30" flags="2"/>
+			<availability year_range_from="2020" year_range_to="" />
 		</news>
-		<news id="cujo-news-gamezworld-03" type="2" thread_id="cujo-news-tvt" creator="8827" created_by="Cujo">
+		<news id="cujo-news-gamezworld-03" type="0" thread_id="cujo-news-tvt" creator="8827" created_by="Cujo">
 			<title>
 				<de>Gamezworld AG schafft Schreibmaschinen ab</de>
 				<en>Gamezworld AG abolishes typewriters</en>
@@ -715,10 +711,8 @@
 				<de>Wie die Pressesprecherin der Gamezworld AG mitteilte, müssen die Entwickler nicht mehr auf Schreibmaschinen programmieren: "Unsere Programmierer werden ab sofort mit leistungsfähigen 16-Bit-Bandium-Computern ausgestattet."</de>
 				<en>According to Gamezworld AG's press spokeswoman, developers no longer have to program on typewriters: "Our programmers will be equipped with powerful 16-bit Bandium computers from now on."</en>
 			</description>
-			<effects>
-				<effect trigger="happen" type="triggernews" time="2,1,2,14,18" news="cujo-news-gamezworld-04" />
-			</effects>
-			<data genre="0" price="0.5" quality="30" />
+			<data genre="0" price="0.5" quality="30" flags="2"/>
+			<availability year_range_from="2000" year_range_to="" />
 		</news>
 		<news id="cujo-news-gamezworld-04" type="2" thread_id="cujo-news-tvt" creator="8827" created_by="Cujo">
 			<title>
@@ -1185,7 +1179,7 @@
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data country="D" year="1991" distribution="1" maingenre="5" subgenre="" flags="8" blocks="2" price_mod="0.98" />
 			<ratings critics="67" speed="19" outcome="65" />
-		</programme>	
+		</programme>
 		<programme id="cujo-film-rache-erben" product="3" licence_type="3" tmdb_id="0" imdb_id="tt0087148" creator="8827" created_by="Cujo">
 			<title>
 				<de>Titi und die Rache der Erben</de>
@@ -1223,11 +1217,10 @@
 				<member index="1" function="2">cujo-person-marlene-lotte-hajan</member>
 				<member index="2" function="2">cujo-person-marianne-stendel</member>
 				<member index="3" function="2">cujo-person-will-schweitzer</member>
-			</staff>		
+			</staff>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data country="D" year="1985" distribution="2" maingenre="9" subgenre="" flags="" blocks="1" price_mod="0.9" />
 			<ratings critics="30" speed="27" outcome="49" />
-			<availability year_range_from="1985" year_range_to="1996" />
 			<children>
 				<programme id="cujo-serien-kastanienstrasse-01" product="2" licence_type="2" tmdb_id="0" imdb_id="" creator="8827" created_by="Cujo">
 					<title>
@@ -1303,11 +1296,10 @@
 				<member index="1" function="2">cujo-person-olli-herden</member>
 				<member index="2" function="2">cujo-person-antje-poppwol</member>
 				<member index="3" function="2">cujo-person-herakles-dododiles</member>
-			</staff>		
+			</staff>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data country="D" year="1997" distribution="2" maingenre="9" subgenre="" flags="" blocks="1" price_mod="0.95" />
 			<ratings critics="40" speed="32" outcome="39" />
-			<availability year_range_from="1997" year_range_to="2008" />
 			<children>
 				<programme id="cujo-serien-kastanienstrasse-06" product="2" licence_type="2" tmdb_id="0" imdb_id="" creator="8827" created_by="Cujo">
 					<title>
@@ -1333,12 +1325,12 @@
 				</programme>
 				<programme id="cujo-serien-kastanienstrasse-08" product="2" licence_type="2" tmdb_id="0" imdb_id="" creator="8827" created_by="Cujo">
 					<title>
-						<de>Else: "Sodom und Gomerra"</de>
-						<en>Else: "Sodom and Gomerra"</en>
+						<de>Else: "Sodom und Gomorra"</de>
+						<en>Else: "Sodom and Gomorrah"</en>
 					</title>
 					<description>
-						<de>Else ist mit dem Lebensstil der Nachbarn nicht einverstanden. Für sie herrscht in der Kastanienstraße "Sodom und Gomerra".</de>
-						<en>Else does not agree with the lifestyle of the neighbors. For her, "Sodom and Gomerra" reigns in Chestnut Street.</en>
+						<de>Else ist mit dem Lebensstil der Nachbarn nicht einverstanden. Für sie herrscht in der Kastanienstraße "Sodom und Gomorra".</de>
+						<en>Else does not agree with the lifestyle of the neighbors. For her, "Sodom and Gomerrah" reigns in Chestnut Street.</en>
 					</description>
 					<ratings critics="40" speed="32" />
 				</programme>
@@ -1383,11 +1375,10 @@
 				<member index="1" function="2">cujo-person-amon-surganjankanayani</member>
 				<member index="2" function="2">cujo-person-marlene-angler</member>
 				<member index="3" function="2">cujo-person-max-b-sax</member>
-			</staff>		
+			</staff>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data country="D" year="2009" distribution="2" maingenre="9" subgenre="" flags="" blocks="1" price_mod="1" />
 			<ratings critics="50" speed="37" outcome="29" />
-			<availability year_range_from="2009" year_range_to="" />
 			<children>
 				<programme id="cujo-serien-kastanienstrasse-11" product="2" licence_type="2" tmdb_id="0" imdb_id="" creator="8827" created_by="Cujo">
 					<title>
@@ -1445,7 +1436,7 @@
 					<ratings critics="50" speed="37" />
 				</programme>
 			</children>
-		</programme>	
+		</programme>
 		<programme id="cujo-serien-large-detonation" product="2" licence_type="3" tmdb_id="0" imdb_id="tt0898266" creator="8827" created_by="Cujo">
 			<title>
 				<de>The Large Detonation Theory</de>
@@ -1593,7 +1584,7 @@
 				<programme id="cujo-serien-best-torilo-03" product="2" licence_type="2" tmdb_id="0" imdb_id="" creator="8827" created_by="Cujo">
 					<title>
 						<de>Das Bild hängt schief</de>
-						<en>The picture hangs crooked</en>
+						<en>The picture is crooked</en>
 					</title>
 					<description>
 						<de>Ein Freund des Hauses kommt zu Besuch. Das Dienstmädchen lässt ihn ein und sagt, er soll im Salon warten. Als er dort ein schiefes Bild gerade rücken will, zerstört er die Einrichtung.</de>
@@ -1624,7 +1615,7 @@
 					<ratings critics="22" speed="25" />
 				</programme>
 			</children>
-		</programme>	
+		</programme>
 		<programme id="cujo-serien-tigerzahn" product="2" licence_type="3" tmdb_id="0" imdb_id="tt0135097" creator="8827" created_by="Cujo">
 			<title>
 				<de>Tigerzahn</de>
@@ -1779,7 +1770,7 @@
 				<de>Doppelpass</de>
 			</title_original>
 			<description>
-			<de>Fabian Knötlich diskutiert mit den Experten Steffen Neffenzwerg und Marco Passler über fragwürdige Schiedsrichterentscheidungen.</de>
+				<de>Fabian Knötlich diskutiert mit den Experten Steffen Neffenzwerg und Marco Passler über fragwürdige Schiedsrichterentscheidungen.</de>
 				<en>Fabian Knötlich discusses questionable referee decisions with experts Steffen Neffenzwerg and Marco Passler.</en>
 			</description>
 			<staff>
